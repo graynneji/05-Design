@@ -5,7 +5,8 @@ SPACING SYSTEM (px)
 FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 */
-
+/*main color #087f5b*/
+/*Grey text #343a40*/
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +17,8 @@ FONT SIZE SYSTEM (px)
 /* GENERAL STYLES */
 /* ------------------------ */
 body {
-  font-family: "inter" sans-serif;
+  font-family: inter, sans-serif;
+  color: #343a40;
 }
 
 .container {
@@ -59,11 +61,13 @@ h1 {
   margin-bottom: 24px;
   font-size: 44px;
   line-height: 1.1;
-  font-weight: 700;
+  letter-spacing: -1px;
 }
 
 .header-text {
   margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 1.7;
 }
 
 img {
@@ -133,8 +137,10 @@ h3 {
 .chair-price {
   display: flex;
   justify-content: space-between;
+  font-size: 20px;
 }
 
 footer {
   margin-bottom: 48px;
+  font-size: 14px;
 }
