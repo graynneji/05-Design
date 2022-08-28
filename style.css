@@ -40,6 +40,18 @@ h2 {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 80px;
 }
+.btn:link,
+.btn:visited {
+  background-color: #087f5b;
+  padding: 16px 32px;
+  border-radius: 30px;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #fff;
+  display: inline-block;
+}
 
 /* ------------------------ */
 /* COMPONENT STYLES */
