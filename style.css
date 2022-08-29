@@ -19,6 +19,7 @@ FONT SIZE SYSTEM (px)
 body {
   font-family: inter, sans-serif;
   color: #343a40;
+  border-bottom: 8px solid #087f5b;
 }
 
 .container {
@@ -43,9 +44,7 @@ h2 {
 .btn:link,
 .btn:visited {
   background-color: #087f5b;
-  padding: 16px 32px;
-  /*border-radius: 30px;*/
-  font-size: 18px;
+
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 500;
@@ -55,6 +54,15 @@ h2 {
 .btn:hover,
 .btn:active {
   background-color: #099268;
+}
+.btn--big {
+  padding: 16px 32px;
+  /*border-radius: 30px;*/
+  font-size: 18px;
+}
+.btn--small {
+  font-size: 14px;
+  padding: 8px 12px;
 }
 /* ------------------------ */
 /* COMPONENT STYLES */
@@ -88,6 +96,12 @@ h1 {
 img {
   width: 100%;
 }
+.features-icon {
+  stroke: #087f5b;
+  width: 32px;
+  height: 32px;
+  margin-bottom: 16px;
+}
 
 /* FEATURES */
 .features-icon {
@@ -102,6 +116,9 @@ img {
 
 /* TESTIMONIAL */
 .testimonial-section {
+  background-color: #087f5b;
+  color: #fff;
+  padding: 24px;
 }
 
 .testimonial-box {
@@ -147,6 +164,9 @@ h3 {
 }
 
 .chair-icon {
+  stroke: #087f5b;
+  width: 24px;
+  height: 24px;
 }
 
 .chair-price {
@@ -158,4 +178,5 @@ h3 {
 footer {
   margin-bottom: 48px;
   font-size: 14px;
+  color: #495057;
 }
